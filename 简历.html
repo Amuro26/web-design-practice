@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>个人简历</title>
+
+    <style type="text/css">
+        
+        table{
+            background: white;
+            table-layout: fixed;
+            border: 1px black solid;
+            border-collapse: collapse;
+        }
+        
+        li{
+            list-style: none;
+        }
+        
+        tr td{
+            border: 1px black solid;
+        }
+        
+        td{
+            width: 200px;
+            height: auto;
+            text-align: center;
+        }
+        
+        a{
+            text-decoration: none;
+        }
+
+        .first_title{
+            font-size: 28px;
+            font-family: "黑体";
+            color: black
+        }
+        
+        .title{
+            font-family: "黑体";
+            font-size: 48px;
+            color: gold;
+            font-style: normal;
+        }
+
+        .second_title{
+            color: black;
+            font:normal bold 32px/20px arial,"微软雅黑";
+        }
+        
+        .second_content{
+            font-size: 24px；
+            font-family： "微软雅黑";
+            color: black
+        }
+
+        .third_content{
+            font-size: 20px;
+            font-family: "Microsoft YaHei" ,"黑体";
+            text-align: left;
+            color: black
+        }
+
+        #des{
+            text-indent:35px
+        }
+        
+        div:hover{
+            cursor: pointer;
+            color: green;
+        }
+        
+        td:hover{
+            hyphens: manual;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="title" align="center">
+        <h1>个人简历</h1>
+    </div>
+
+    <table class="content" align="center">
+        <tr>
+            <td colspan="6" class="first_title">
+                <h1>基本资料</h1>
+            </td>
+        </tr>
+        <tr>
+            <td class="second_content">姓名</td>
+            <td class="second_content">马里奥</td>
+            <td class="second_content">专业</td>
+            <td class="second_content">游戏人物</td>
+            <td rowspan="6">
+                <div class="main_picture">
+                    <a href="https://en.wikipedia.org/wiki/Super_mario">
+                        <img src="amuro.jpg">
+                    </a>
+                </div>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="second_content">国籍</td>
+            <td class="second_content">日本</td>
+            <td class="second_content">毕业学校</td>
+            <td class="second_content">任天堂</td>
+        </tr>
+
+        <tr>
+            <td class="second_content">健康状况</td>
+            <td class="second_content">良</td>
+            <td class="second_content">婚姻状况</td>
+            <td class="second_content">未婚</td>
+        </tr>
+
+        <tr>
+            <td class="second_content">性别</td>
+            <td class="second_content">男</td>
+            <td class="second_content">年收入</td>
+            <td class="second_content">未知</td>
+        </tr>
+
+        <tr>
+            <td class="first_title" colspan=4>联系方式</td>
+        </tr>
+
+        <tr>
+            <td class="second_content">电话</td>
+            <td class="second_content">10086</td>
+            <td class="second_content">邮箱</td>
+            <td class="second_content">amuro@gmail.com</td>
+        </tr>
+
+        <tr>
+            <td class="second_title">专业能力</td>
+            <td colspan="4">
+                <ul class="third_content">
+                    <li>摄影,能够拍出好看的照片！</li>
+                    <li>电子游戏，出演过很多部电子游戏。</li>
+                    <li>网球，实际上是一个网球能手。</li>
+                    <li>编程，说不定实际上还会一些编程。</li>
+                </ul>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="second_title">教育经历</td>
+            <td colspan="4"  class="third_content">
+                <ol>
+                    <li>1981年,出演游戏
+                        <a href="http://baike.baidu.com/item/%E5%A4%A7%E9%87%91%E5%88%9A/16298677">《大金刚》</a>
+                        ，是玩家所扮演的角色。</li>
+                    <li>1983年，
+                        <a href="http://baike.baidu.com/item/%E9%A9%AC%E9%87%8C%E5%A5%A5%E5%85%84%E5%BC%9F">《马里奥兄弟》</a>
+                        发售，成为第一部带有马里奥名称的作品。</li>
+                    <li>1985年，第一部本传作品——
+                        <a href="http://baike.baidu.com/item/%E8%B6%85%E7%BA%A7%E9%A9%AC%E9%87%8C%E5%A5%A5%E5%85%84%E5%BC%9F/14843731#viewPageContent">《超级马里奥兄弟》</a>
+                        发布，火爆全球。</li>
+                    <li>1995年，
+                        <a href="http://baike.baidu.com/item/Super%20Mario%2064/16110872?fromtitle=%E8%B6%85%E7%BA%A7%E9%A9%AC%E9%87%8C%E5%A5%A564&fromid=6114021">《超级马里奥64》</a>
+                        发售，确立了3D ACT游戏的标准。</li>
+                </ol>
+            </td>
+        </tr>
+
+        <tr>
+            <td class="second_title">成长描述</td>
+            <td colspan="4" class="third_content" id='des'>
+                <p>超级马里奥（又称马里奥）是任天堂出版的系列游戏的主角，陪伴人们从上世纪80年代开始，度过无数难忘的美好岁月，
+                    直至今天，依然在全球享有超高的人气。
+                </p>
+                <p>《超级马里奥兄弟》，是任天堂公司开发并于1985年出品的著名横版过关游戏，
+                    最早在红白机上推出，有多款后续作品，迄今多个版本合共销量已突破5亿4000万套。
+                </p>
+                <p>1990年11月21日，全世界各大媒体竞相报道了任天堂全新的16位元主机SFC日本本土首发的盛况，
+                    当周的主机实际销量约36万台，而首发的主打游戏《超级马里奥世界》(《SUPER MARIO WORLD》)也卖出了同样的数字。
+                    任天堂聘请了系井重里事务所担任广告设计，约请了著名影星田中律子出演广告CM，
+                    田中马里奥的形象通过24小时不间断滚动播放深入人心。《超级马里奥世界》日本本土最终出货量突破了355万份，
+                    使得任天堂的王权得以顺利过渡 到16位元时代。这部作品的海外累计销量突破1500万份。
+                </p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
